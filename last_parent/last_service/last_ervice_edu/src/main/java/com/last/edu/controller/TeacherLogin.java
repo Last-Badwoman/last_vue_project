@@ -16,7 +16,7 @@ import java.util.UUID;
 @Slf4j
 @Api(value = "last/teacher", tags = {"用户登录"})
 @CrossOrigin
-@RequestMapping("last/teacher")
+@RequestMapping("last/service")
 @RestController
 public class TeacherLogin {
 

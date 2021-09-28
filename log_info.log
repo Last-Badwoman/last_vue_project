@@ -1,0 +1,364 @@
+2021-09-28 16:25:35.601 [main] INFO  com.last.LastOssApplication - Starting LastOssApplication on LAPTOP-AI8J8I77 with PID 12472 (F:\last_vue_project\last_parent\last_service\last_service_oss\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 16:25:35.606 [main] INFO  com.last.LastOssApplication - The following profiles are active: dev
+2021-09-28 16:25:36.517 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 16:25:36.519 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 16:25:36.542 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-09-28 16:25:36.910 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+2021-09-28 16:25:36.918 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+2021-09-28 16:25:36.919 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 16:25:36.919 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 16:25:37.020 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 16:25:37.020 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1344 ms
+2021-09-28 16:25:37.088 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-09-28 16:25:37.100 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-28 16:27:04.524 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 5048 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 16:27:04.527 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 16:27:05.256 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 16:27:05.258 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 16:27:05.277 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2021-09-28 16:27:05.490 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 16:27:05.673 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 16:27:05.680 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 16:27:05.681 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 16:27:05.681 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 16:27:05.766 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 16:27:05.766 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1172 ms
+2021-09-28 16:27:05.937 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 16:27:06.603 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 16:27:07.028 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 16:27:07.112 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 16:27:07.485 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 16:27:07.496 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 16:27:07.534 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 16:27:07.688 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 16:27:07.705 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 16:27:07.707 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 3.698 seconds (JVM running for 4.626)
+2021-09-28 16:28:21.504 [main] INFO  com.last.LastOssApplication - Starting LastOssApplication on LAPTOP-AI8J8I77 with PID 344 (F:\last_vue_project\last_parent\last_service\last_service_oss\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 16:28:21.511 [main] INFO  com.last.LastOssApplication - The following profiles are active: dev
+2021-09-28 16:28:22.329 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 16:28:22.331 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 16:28:22.354 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-09-28 16:28:22.725 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+2021-09-28 16:28:22.733 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+2021-09-28 16:28:22.733 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 16:28:22.734 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 16:28:22.826 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 16:28:22.826 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1239 ms
+2021-09-28 16:28:22.888 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-09-28 16:28:22.900 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-28 16:56:35.771 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 6072 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 16:56:35.774 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 16:56:36.547 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 16:56:36.549 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 16:56:36.566 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2021-09-28 16:56:36.773 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 16:56:36.956 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 16:56:36.963 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 16:56:36.964 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 16:56:36.964 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 16:56:37.042 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 16:56:37.043 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1201 ms
+2021-09-28 16:56:37.200 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 16:56:37.779 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 16:56:38.165 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 16:56:38.244 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 16:56:38.588 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 16:56:38.599 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 16:56:38.636 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 16:56:38.786 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 16:56:38.802 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 16:56:38.805 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 3.532 seconds (JVM running for 4.445)
+2021-09-28 18:10:09.673 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 15976 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 18:10:09.676 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 18:10:10.565 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 18:10:10.567 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 18:10:10.587 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2021-09-28 18:10:10.825 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 18:10:11.030 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 18:10:11.037 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 18:10:11.037 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 18:10:11.038 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 18:10:11.132 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 18:10:11.132 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1412 ms
+2021-09-28 18:10:11.313 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 18:10:11.934 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 18:10:12.410 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 18:10:12.500 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 18:10:12.894 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 18:10:12.908 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 18:10:12.942 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 18:10:13.127 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 18:10:13.147 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 18:10:13.149 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 4.099 seconds (JVM running for 5.122)
+2021-09-28 18:10:39.741 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 18:10:39.741 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 18:10:39.746 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-09-28 18:10:39.827 [http-nio-8001-exec-1] INFO  com.last.edu.controller.TeacherLogin - user: AclUser(id=null, username=admin, password=admin, nickName=null, salt=null, token=null, isDeleted=null, gmtCreate=null, gmtModified=null)
+2021-09-28 18:10:39.876 [http-nio-8001-exec-3] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 18:19:25.425 [http-nio-8001-exec-2] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 18:40:59.559 [http-nio-8001-exec-5] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 18:43:25.151 [http-nio-8001-exec-6] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 18:43:45.924 [http-nio-8001-exec-7] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 18:46:56.626 [http-nio-8001-exec-8] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 18:55:33.977 [http-nio-8001-exec-9] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 18:56:02.888 [http-nio-8001-exec-1] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 18:59:18.513 [http-nio-8001-exec-2] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:00:59.160 [http-nio-8001-exec-3] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:04:22.979 [http-nio-8001-exec-4] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:06:06.712 [http-nio-8001-exec-5] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:15:14.506 [http-nio-8001-exec-7] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:17:46.706 [http-nio-8001-exec-8] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:20:03.805 [http-nio-8001-exec-10] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:22:21.485 [http-nio-8001-exec-9] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:24:59.432 [http-nio-8001-exec-1] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:30:21.241 [http-nio-8001-exec-3] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:32:28.800 [http-nio-8001-exec-4] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:34:56.119 [http-nio-8001-exec-5] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:36:45.258 [http-nio-8001-exec-6] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:37:02.504 [http-nio-8001-exec-7] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:38:26.165 [http-nio-8001-exec-1] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 19:39:52.662 [http-nio-8001-exec-2] INFO  com.last.edu.controller.TeacherLogin - token: c2019d84-07ac-417c-8e44-3732cb8326c2
+2021-09-28 22:00:16.215 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 17020 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:00:16.218 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:00:17.071 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:00:17.072 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:00:17.092 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2021-09-28 22:00:17.312 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:00:17.508 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:00:17.516 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:00:17.516 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:00:17.517 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:00:17.613 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:00:17.613 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1320 ms
+2021-09-28 22:00:17.769 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:00:18.384 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:00:18.864 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:00:18.961 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:00:19.357 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:00:19.370 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:00:19.401 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:00:19.543 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:00:19.572 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:00:19.591 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:00:19.594 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 3.997 seconds (JVM running for 4.957)
+2021-09-28 22:00:58.216 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 22:00:58.216 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 22:00:58.222 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-09-28 22:03:21.331 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 17632 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:03:21.334 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:03:22.173 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:03:22.175 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:03:22.198 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2021-09-28 22:03:22.451 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:03:22.684 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:03:22.693 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:03:22.693 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:03:22.694 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:03:22.786 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:03:22.786 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1405 ms
+2021-09-28 22:03:23.011 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:03:23.589 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:03:24.058 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:03:24.155 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:03:24.601 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:03:24.616 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:03:24.650 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:03:24.794 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:03:24.827 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:03:24.847 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:03:24.850 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 4.216 seconds (JVM running for 5.403)
+2021-09-28 22:03:36.262 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 22:03:36.262 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 22:03:36.268 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-09-28 22:04:09.448 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:04:09.450 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Shutdown initiated...
+2021-09-28 22:04:09.453 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Shutdown completed.
+2021-09-28 22:04:13.255 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 17980 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:04:13.259 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:04:14.119 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:04:14.121 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:04:14.146 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2021-09-28 22:04:14.431 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:04:14.686 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:04:14.695 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:04:14.696 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:04:14.696 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:04:14.796 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:04:14.796 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1493 ms
+2021-09-28 22:04:15.006 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:04:15.700 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:04:16.192 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:04:16.294 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:04:16.771 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:04:16.788 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:04:16.825 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:04:17.004 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:04:17.038 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:04:17.060 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:04:17.063 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 4.51 seconds (JVM running for 5.501)
+2021-09-28 22:04:39.078 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 22:04:39.078 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 22:04:39.085 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-09-28 22:06:30.508 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:06:30.509 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Shutdown initiated...
+2021-09-28 22:06:30.512 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Shutdown completed.
+2021-09-28 22:06:35.509 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 3328 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:06:35.512 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:06:36.296 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:06:36.298 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:06:36.317 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2021-09-28 22:06:36.535 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:06:36.734 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:06:36.742 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:06:36.743 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:06:36.743 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:06:36.841 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:06:36.842 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1283 ms
+2021-09-28 22:06:37.005 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:06:37.628 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:06:38.065 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:06:38.158 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:06:38.537 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:06:38.548 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:06:38.575 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:06:38.715 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:06:38.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:06:38.762 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:06:38.764 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 3.826 seconds (JVM running for 4.782)
+2021-09-28 22:07:15.845 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 22:07:15.846 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 22:07:15.851 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-09-28 22:07:58.718 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 10848 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:07:58.721 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:07:59.696 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:07:59.698 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:07:59.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2021-09-28 22:07:59.975 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:08:00.207 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:08:00.216 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:08:00.217 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:08:00.218 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:08:00.326 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:08:00.326 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1555 ms
+2021-09-28 22:08:00.510 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:08:01.157 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:08:01.656 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:08:01.758 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:08:02.205 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:08:02.219 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:08:02.250 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:08:02.395 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:08:02.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:08:02.451 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:08:02.455 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 4.459 seconds (JVM running for 5.581)
+2021-09-28 22:08:36.292 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 22:08:36.292 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 22:08:36.298 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-09-28 22:10:56.846 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 12696 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:10:56.849 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:10:57.735 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:10:57.737 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:10:57.766 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2021-09-28 22:10:58.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:10:58.234 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:10:58.241 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:10:58.242 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:10:58.242 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:10:58.334 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:10:58.335 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1426 ms
+2021-09-28 22:10:58.497 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:10:59.080 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:10:59.524 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:10:59.615 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:11:00.008 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:11:00.023 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:11:00.050 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:11:00.186 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:11:00.215 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:11:00.234 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:11:00.236 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 4.026 seconds (JVM running for 5.028)
+2021-09-28 22:12:01.526 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 18264 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:12:01.529 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:12:02.342 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:12:02.343 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:12:02.364 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2021-09-28 22:12:02.594 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:12:02.795 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:12:02.804 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:12:02.804 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:12:02.805 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:12:02.898 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:12:02.898 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1328 ms
+2021-09-28 22:12:03.066 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:12:03.700 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:12:04.147 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:12:04.238 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:12:04.629 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:12:04.642 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:12:04.678 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:12:04.842 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:12:04.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:12:04.891 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:12:04.894 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 3.955 seconds (JVM running for 4.935)
+2021-09-28 22:12:26.351 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 22:12:26.351 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 22:12:26.356 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-09-28 22:13:08.508 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 7492 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:13:08.512 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:13:09.361 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:13:09.363 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:13:09.386 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2021-09-28 22:13:09.656 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:13:09.902 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:13:09.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:13:09.912 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:13:09.912 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:13:10.008 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:13:10.008 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1447 ms
+2021-09-28 22:13:10.245 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:13:10.841 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:13:11.318 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:13:11.416 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:13:11.874 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:13:11.889 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:13:11.921 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:13:12.069 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:13:12.101 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:13:12.122 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:13:12.125 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 4.294 seconds (JVM running for 5.294)
+2021-09-28 22:13:17.892 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 22:13:17.892 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 22:13:17.899 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-09-28 22:20:33.165 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:20:33.166 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Shutdown initiated...
+2021-09-28 22:20:33.170 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Shutdown completed.
+2021-09-28 22:20:38.302 [main] INFO  com.last.edu.LastEduApplication - Starting LastEduApplication on LAPTOP-AI8J8I77 with PID 17056 (F:\last_vue_project\last_parent\last_service\last_ervice_edu\target\classes started by 22514 in F:\last_vue_project)
+2021-09-28 22:20:38.305 [main] INFO  com.last.edu.LastEduApplication - The following profiles are active: dev
+2021-09-28 22:20:39.103 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-28 22:20:39.104 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-28 22:20:39.125 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2021-09-28 22:20:39.353 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-28 22:20:39.548 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-28 22:20:39.556 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:20:39.556 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-28 22:20:39.557 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-28 22:20:39.650 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-28 22:20:39.650 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1276 ms
+2021-09-28 22:20:39.816 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Starting...
+2021-09-28 22:20:40.428 [main] INFO  com.zaxxer.hikari.HikariDataSource - LastHikariPool - Start completed.
+2021-09-28 22:20:40.864 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-28 22:20:40.955 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-28 22:20:41.339 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-28 22:20:41.350 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-28 22:20:41.378 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-28 22:20:41.512 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-09-28 22:20:41.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-28 22:20:41.558 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-28 22:20:41.562 [main] INFO  com.last.edu.LastEduApplication - Started LastEduApplication in 3.814 seconds (JVM running for 4.803)
+2021-09-28 22:20:48.129 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 22:20:48.129 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-28 22:20:48.135 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms

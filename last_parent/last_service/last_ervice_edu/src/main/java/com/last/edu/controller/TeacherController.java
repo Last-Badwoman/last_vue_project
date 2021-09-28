@@ -30,9 +30,9 @@ import java.util.Objects;
  * @since 2021-09-25
  */
 @CrossOrigin
-@Api(value = "edu/teacher", tags = {"讲师管理"})
+@Api(value = "last/service", tags = {"讲师管理"})
 @RestController
-@RequestMapping("edu/teacher")
+@RequestMapping("last/service/teacher")
 public class TeacherController {
 
     @Autowired

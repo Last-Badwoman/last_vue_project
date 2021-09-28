@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2021-09-27
  */
 @RestController
-@RequestMapping("/edu/acl-user")
+@RequestMapping("last/service/acl-user")
 public class AclUserController {
 
 }

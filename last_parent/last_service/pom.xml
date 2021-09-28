@@ -13,6 +13,7 @@
     <description>last 的service工程</description>
     <modules>
         <module>last_ervice_edu</module>
+        <module>last_service_oss</module>
     </modules>
 
     <dependencies>
