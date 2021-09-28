@@ -16,7 +16,7 @@ aliyun:
   oss:
     file:
       endPoInt: oss-cn-shanghai.aliyuncs.com
-      keyId: LTAI5tNWbNRZmuMC4jzzBbH2
-      keySecret: KeEbNQ8ouWMh7IF1iPABpb1hRrO8Cz
+      keyId:
+      keySecret:
       #bucket可以在控制台创建，也可以使用java代码创建
       bucketName: last-oss-picture
