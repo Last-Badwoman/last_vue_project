@@ -20,7 +20,7 @@ public class demo {
         // 2、全局配置
         GlobalConfig gc = new GlobalConfig();
 //        String projectPath = System.getProperty("user.dir");
-        String projectPath = "F:/last_vue_project/last_parent/last_service/last_ervice_edu";
+        String projectPath = "G:/last_vue_project/last_parent/last_service/last_ervice_edu";
         System.out.println(projectPath);
         gc.setOutputDir(projectPath + "/src/main/java");
         gc.setAuthor("last");
@@ -57,7 +57,7 @@ public class demo {
         mpg.setPackageInfo(pc);
         // 5、策略配置
         StrategyConfig strategy = new StrategyConfig();
-        strategy.setInclude("acl_user");
+        strategy.setInclude("edu_subject");
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
         strategy.setTablePrefix(pc.getModuleName() + "_"); //生成实体时去掉表前缀
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);//数据库表字段映射到实体的命名策略
