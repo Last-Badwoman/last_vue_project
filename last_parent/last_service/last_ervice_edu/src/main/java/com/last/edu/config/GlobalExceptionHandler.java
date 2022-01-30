@@ -15,6 +15,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
+    /**
+     * this is test！
+     */
+
     @ExceptionHandler(LastException.class)
     @ResponseBody
     public Response error(LastException e){
