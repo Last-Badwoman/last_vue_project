@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class GlobalExceptionHandler {
 
     /**
-     * this is test！conflict
+     * this is test！conflict ？？？
      */
 
     @ExceptionHandler(LastException.class)
